@@ -1,0 +1,91 @@
+body {
+  background-color: #b1cbf9; /* Replace with the color you want */
+  margin: 0;
+  padding: 0;
+  background-image: url("https://thumbs.dreamstime.com/z/watercolor-light-blue-purple-ombre-background-painting-texture-multicolored-pastel-watery-soft-backdrop-stains-paper-182858316.jpg");
+  /* background-image: url("https://t4.ftcdn.net/jpg/03/10/78/81/360_F_310788101_oR7erDPSerhqGGEYoVYEQB4KPOVtBK0q.jpg"); */
+}
+.container {
+  /* border: 1px solid black; */
+  height: auto;
+  min-height: 200px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 20px;
+  color: rgb(9, 9, 9);
+  /* background-color: rgb(84, 128, 147); */
+  font-size: larger;
+}
+.task-info {
+  padding: 10px;
+  /* border: 1px solid black; */
+  /* width: 100%; */
+  text-align: left;
+}
+.task-data {
+  /* width: 100%; */
+  word-wrap: break-word;
+  text-align: left;
+  display: flex;
+}
+.date {
+  font-size: small;
+  display: flex;
+  justify-content: flex-end;
+}
+.btn {
+  margin-left: 20px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(248, 79, 79);
+  color: aliceblue;
+}
+.btn:hover {
+  background-color: brown;
+}
+input {
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+  width: 300px;
+  height: 30px;
+}
+.btn-add {
+  border-radius: 10px;
+  background-color: green;
+  color: aliceblue;
+  padding: 4px;
+}
+.task-data {
+  cursor: pointer;
+}
+.task-data.completed {
+  cursor: pointer;
+  color: rgb(241, 235, 235); /* Change the color for completed tasks */
+}
+.btn-edit {
+  background-color: chartreuse;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+.btn-all button {
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+}
+.btn-all button:hover {
+  background-color: rgb(72, 148, 148);
+  color: aliceblue;
+  border: none;
+  padding: 5px;
+}
